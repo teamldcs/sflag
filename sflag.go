@@ -1,7 +1,7 @@
+// Package sflag is a commandline arguments parser using struct syntax
 // At time of writing, sflag is the only known flags package variant that is 100% DRY, free of fugly pointer syntax and uses clean struct syntax.
 // Implementation makes use of reflection and struct tags.
 // BUG() Presence of a boolean flag requires that there be no STANDALONE true or false parameters, use "--Foo=true" syntax instead of "--Foo true".
-
 package sflag
 
 import (

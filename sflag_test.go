@@ -11,9 +11,9 @@ var opt = struct {
 	GDP         float64 "in Vietnamese Dong          | 42000000000000000000000000.0"
 	Age         int64   "in milliseconds since epoch | 42000000000000"
 	SomeCommand string  "! is command that might contain pipe char ! 'yes | head'"
-	Verbose     bool    "Bool flags require use of an equals sign syntax (i.e. \"var=value\") to be unambiguous		| false"
+	Verbose     bool    "Bool flags require use of an equals sign syntax (i.e. \"var=value\") to be unambiguous| false"
 	OutData     string  " must be writable | /an/output/file"
-	Args		[]string
+	Args        []string
 }{}
 
 func ExampleSflag() {
